@@ -7,3 +7,7 @@ def test_add():
 def test_product():
     assert maths_func.product(5, 4) == 20
     assert maths_func.product(5) == 10
+
+def test_division():
+    assert maths_func.division(20 , 4) == 5
+    
