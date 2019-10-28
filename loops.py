@@ -172,5 +172,5 @@ class School:
         elif self.marks > 80 and marks <=100:
             print("DISTINCTION!!")
 
-Student = School('Ann' , 'BSCIT', 39)
-Student.Student_Details()
+student = School('Ann' , 'BSCIT', 39)
+student.Student_Details()
