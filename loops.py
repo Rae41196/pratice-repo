@@ -165,7 +165,12 @@ class School:
     def Student_Details(self):
         print (f"Your name is: {self.name}\n Taking {self.course} course. ")
         print (f"You scored {self.marks}. ")
-
+        if self.marks <= 40:
+            print("FAILED!")
+        elif self.marks > 40 and marks <= 79:
+            print("PASSED")
+        elif self.marks > 80 and marks <=100:
+            print("DISTINCTION!!")
 
 Student = School('Ann' , 'BSCIT', 39)
 Student.Student_Details()
