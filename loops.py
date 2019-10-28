@@ -126,7 +126,7 @@ start()
 '''
 
 
-
+'''
 # doing things to lists
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
 
@@ -149,3 +149,23 @@ print(stuff[-1])
 print(stuff.pop())
 print(' '.join(stuff))
 print('#'.join(stuff[3:7]))
+'''
+
+
+
+
+class School:
+
+    def __init__(self, name, course, marks):
+        self.name = name
+        self.course = course
+        self.marks = marks
+        
+
+    def Student_Details(self):
+        print (f"Your name is: {self.name}\n Taking {self.course} course. ")
+        print (f"You scored {self.marks}. ")
+
+
+Student = School('Ann' , 'BSCIT', 39)
+Student.Student_Details()
