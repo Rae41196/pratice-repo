@@ -14,3 +14,5 @@ def test_difference():
 def test_division():
     assert maths_func.division(20, 4) == 5
     assert maths_func.division(100) == 25
+
+    
